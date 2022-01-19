@@ -4,9 +4,9 @@
 # Contributor: Sebastian Ehlert <awvwgk at disroot dot org>
 
 pkgname=nvhpc
-_REL_YEAR=2021
+_REL_YEAR=2022
 _CUDA_VER=11.5
-pkgver=21.11
+pkgver=22.1
 pkgrel=1
 pkgdesc='NVIDIA HPC SDK'
 arch=('x86_64')
@@ -19,7 +19,7 @@ conflicts=('pgi-compilers')
 _pkgname="${pkgname}_${_REL_YEAR}_${pkgver//.}_Linux_${arch}_cuda_${_CUDA_VER}"
 source=("https://developer.download.nvidia.com/hpc-sdk/$pkgver/$_pkgname.tar.gz"
         "nvhpc.sh")
-sha256sums=('91773db3a70dfbce70ecb46e00b823db0586ebab28cd5e66c947a1631971610c'
+sha256sums=('9bab2fb272b7f944a73337de2f9575f9a8d7cfc60ffd146a961c162b7b7ce08f'
             'b5e5524d1a4536a0f7583f727b4645158e21de4bca429af410d176c034f12601')
 options=(!strip)
 

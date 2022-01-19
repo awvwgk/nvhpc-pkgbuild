@@ -1,6 +1,6 @@
 pkgbase = nvhpc
 	pkgdesc = NVIDIA HPC SDK
-	pkgver = 21.9
+	pkgver = 22.1
 	pkgrel = 1
 	url = https://developer.nvidia.com/hpc-sdk
 	arch = x86_64
@@ -12,9 +12,9 @@ pkgbase = nvhpc
 	conflicts = pgi-compilers
 	replaces = pgi-compilers
 	options = !strip
-	source = https://developer.download.nvidia.com/hpc-sdk/21.9/nvhpc_2021_219_Linux_x86_64_cuda_11.4.tar.gz
+	source = https://developer.download.nvidia.com/hpc-sdk/22.1/nvhpc_2022_221_Linux_x86_64_cuda_11.5.tar.gz
 	source = nvhpc.sh
-	sha256sums = 9203e9620dbd5699d92615d58df9adcffd19c6d25794d8b297b7b3723d16c9c1
+	sha256sums = 9bab2fb272b7f944a73337de2f9575f9a8d7cfc60ffd146a961c162b7b7ce08f
 	sha256sums = b5e5524d1a4536a0f7583f727b4645158e21de4bca429af410d176c034f12601
 
 pkgname = nvhpc
